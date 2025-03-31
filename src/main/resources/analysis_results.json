@@ -1,0 +1,189 @@
+{"metrics": [
+    {
+        "metricName": "Branch Time",
+        "result": "No merged branches to calculate average branch time."
+    },
+    {
+        "metricName": "Commit Frequency",
+        "result": [
+            {
+                "date": "2024-12-14",
+                "commits": 2
+            },
+            {
+                "date": "2024-12-15",
+                "commits": 2
+            },
+            {
+                "date": "2025-01-08",
+                "commits": 1
+            }
+        ]
+    },
+    {
+        "metricName": "Code Ownership By File",
+        "result": {"files": [
+            {
+                "filePath": "Javatest.java",
+                "contributors": [{
+                    "author": "Danila",
+                    "percentage": 100,
+                    "changes": 1
+                }],
+                "topContributor": {
+                    "percentage": 100,
+                    "name": "Danila"
+                }
+            },
+            {
+                "filePath": "test.py",
+                "contributors": [{
+                    "author": "Danila",
+                    "percentage": 100,
+                    "changes": 2
+                }],
+                "topContributor": {
+                    "percentage": 100,
+                    "name": "Danila"
+                }
+            },
+            {
+                "filePath": "jstest.js",
+                "contributors": [{
+                    "author": "Danila",
+                    "percentage": 100,
+                    "changes": 2
+                }],
+                "topContributor": {
+                    "percentage": 100,
+                    "name": "Danila"
+                }
+            }
+        ]}
+    },
+    {
+        "metricName": "Code Churn",
+        "result": {"files": [
+            {
+                "filePath": "test.py",
+                "methods": [
+                    {
+                        "methodName": "get_task_count(self)",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "main()",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "__init__(self)",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "remove_task(self, task, v)",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "mark_doe(self, task)",
+                        "modifications": 1
+                    },
+                    {
+                        "methodName": "show_tasks(self)",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "add_task(self, task, v)",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "mark_done(self, task)",
+                        "modifications": 1
+                    }
+                ]
+            },
+            {
+                "filePath": "Javatest.java",
+                "methods": [
+                    {
+                        "methodName": "void setEmail(String email)",
+                        "modifications": 1
+                    },
+                    {
+                        "methodName": "void setName(String name)",
+                        "modifications": 1
+                    },
+                    {
+                        "methodName": "String getName()",
+                        "modifications": 1
+                    },
+                    {
+                        "methodName": "String getEmail()",
+                        "modifications": 1
+                    }
+                ]
+            },
+            {
+                "filePath": "jstest.js",
+                "methods": [
+                    {
+                        "methodName": "showTasks()",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "arrow_function",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "getTaskCount()",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "markDone(task)",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "constructor()",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "addTask(task)",
+                        "modifications": 2
+                    },
+                    {
+                        "methodName": "removeTask(task)",
+                        "modifications": 2
+                    }
+                ]
+            }
+        ]}
+    },
+    {
+        "metricName": "Branch Count with Authors",
+        "result": {
+            "totalBranchCount": 2,
+            "authors": [{
+                "author": "Danila",
+                "branches": [
+                    {"branchName": "refs/heads/main"},
+                    {"branchName": "refs/remotes/origin/main"}
+                ]
+            }]
+        }
+    },
+    {
+        "metricName": "Commit Size",
+        "result": [
+            {"totalLinesAdded": 116},
+            {"totalLinesDeleted": 9}
+        ]
+    },
+    {
+        "metricName": "CommitFixRevert",
+        "result": [{
+            "date": "Wed Jan 08 12:12:30 CET 2025",
+            "author": "Danila",
+            "commitID": "4b1aff3ba9bee670164d6c202383b68823cb6b4b",
+            "message": "fix revert\n"
+        }]
+    }
+]}

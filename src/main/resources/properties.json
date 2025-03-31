@@ -1,0 +1,57 @@
+{
+  "repositoryPath": "C:\\Users\\baran\\IdeaProjects\\spring-framework",
+  "metrics": {
+    "CyclomaticComplexity": {
+      "maxCyclomaticComplexity": 100
+    },
+    "CouplingBetweenObjects": {
+      "maxDependencies": 20
+    },
+    "LinesOfCode": {
+      "classSizeThreshold": 1000
+    },
+    "MethodLength": {
+      "maxMethodLength": 50
+    },
+    "GodClassDetection": {
+      "classSizeThreshold": 1000
+    },
+    "NumberOfParametersPerMethod": {
+      "maxParameters": 4
+    },
+    "DepthOfInheritanceTree": {
+      "maxInheritanceDepth": 2
+    },
+    "Coupling": {
+      "maxCoupling": 1
+    }
+  },
+  "git_metrics" : {
+    "CommitSize": {
+      "commitDepth" : 10
+    },
+    "CommitFixRevert": {
+      "commitDepth" : 10
+    },
+    "CodeOwnershipByFile": {
+      "commitDepth" : 10
+    },
+    "BranchTime": {
+      "commitDepth" : 10
+    },
+    "CommitFrequency": {
+      "commitDepth" : 10
+    },
+    "BranchCountWithAuthors": {
+      "commitDepth" : 10
+    },
+    "CodeChurn": {
+      "commitDepth" : 10
+    }
+  },
+  "languageSpecificSettings": {
+    "Java": {},
+    "Javascript": {},
+    "Python": {"enabled": false }
+  }
+}
